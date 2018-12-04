@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TopicController {
 	@RequestMapping("/topics")
 	public String getAllTopics(){
-		return "All Topics";
+		return "All Topics are";
 	}
 	
 }
